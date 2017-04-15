@@ -1,0 +1,138 @@
+@CHARSET "UTF-8";
+
+*{
+	margin:0;
+	padding:0;
+}
+.container-ul{
+	
+	font-size:14px;
+	float:left;
+	height:44px;
+	
+}
+.container-ul-li{
+	width:55px;
+	float:left;
+	list-style:none;
+	margin:0 10px;
+}
+
+
+
+
+.container-week{
+	font-size:14px;
+	font-family:微软雅黑;
+	margin-top:6px;
+	text-align:center;
+}
+.container-date{
+	margin-top:2px;
+	text-align:center;
+}
+.container-img-lastBtn-disable{
+	width:26px;
+	height:26px;
+	float:left;
+	margin-top:8px;
+    cursor:not-allowed;
+	background:url(../images/last_s_disable.png) no-repeat;
+}
+.container-img-nextBtn-disable{
+	width:26px;
+	height:26px;
+	float:left;
+	margin-top:8px;
+	 cursor:not-allowed;
+	background:url(../images/next_s_disable.png) no-repeat;
+}
+.container-img-lastBtn-enable{
+	width:26px;
+	height:26px;
+	float:left;
+	margin-top:8px;
+	cursor:pointer;
+	background:url(../images/last_s_enable.png) no-repeat;
+}
+.container-img-nextBtn-enable{
+	width:26px;
+	height:26px;
+	float:left;
+	margin-top:8px;
+	cursor:pointer;
+	background:url(../images/next_s_enable.png) no-repeat;
+}
+
+.container-img-lastBtn-hover{
+	width:26px;
+	height:26px;
+	float:left;
+	margin-top:8px;
+	background:url(../images/last_s_h.png) no-repeat;
+}
+.container-img-nextBtn-hover{
+	width:26px;
+	height:26px;
+	float:left;
+	margin-top:8px;
+	background:url(../images/next_s_h.png) no-repeat;
+}
+
+/* schedule 的css */
+.schedule-am,.schedule-pm{
+	height:55px;
+	width:579px;
+	line-height:55px;
+}
+.schedule-am li,.schedule-pm li{
+	float:left;
+	list-style:none;
+	
+}
+
+.schedule-am li.li-amtext,.schedule-pm .li-pmtext{
+	margin-right:5px;
+	
+}
+.schedule-disable{
+	width:50px;
+	height:53px;
+	margin-right:23px;
+	margin-top:3px;
+	background:url(../images/disable_circle.png);
+}
+.schedule-enable{
+	width:50px;
+	height:53px;
+	margin-right:23px;
+	margin-top:3px;
+	background:url(../images/enable_circle.png);
+}
+.schedule-enable-hover{
+	background-image:url(../images/enable_circle_hover.png);
+}
+.schedule-booked{
+	width:50px;
+	height:53px;
+	margin-right:23px;
+	margin-top:3px;
+	background:url(../images/appoint_booked.png);
+}
+.schedule-outer-service{
+	width:50px;
+	height:53px;
+	margin-right:23px;
+	margin-top:3px;
+	background:url(../images/out_service.png);
+}
+.schedule-tooltip{
+	position:absolute;
+	z-index:10;
+	height:64px;
+	width:166px;
+	line-height:70px;
+	font-size:14px;
+	text-align:center;
+	background-image:url(../images/tooltip_bg.png);
+}
